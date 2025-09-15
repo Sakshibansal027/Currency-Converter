@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.main_div {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 430px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  font-size: 30px;
+  position: relative;
+}
+.para_top{
+    position: absolute;
+   top: 15px;
+   left: 17px;
+   font-weight: bold;
+}
+.para_mid{
+   position: absolute;
+    top: 70px;
+    left: 15px;
+    font-size: 20px;
+}
+.input_box{
+     position: absolute;
+    top: 110px;
+    left: 15px;
+    font-size: 20px;
+    height: 45px;
+    width: 350px;
+    border: 1px solid #000000a7;
+    border-radius: 5px;
+}
+.From{
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    font-size: 21px;
+}
+#drop_down1{
+    position: absolute;
+    top: 205px;
+    left: 15px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: right;
+
+}
+.To{
+    position: absolute;
+    top: 180px;
+    left: 270px;
+    font-size: 21px;
+}
+.image1{
+     position: absolute;
+    top: 207px;
+    left: 20px;
+    z-index: 1;
+}
+#drop_down2{
+    position: absolute;
+    top: 205px;
+    left: 270px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: right;
+}
+.image2{
+     position: absolute;
+    top: 207px;
+    left: 275px;
+    z-index: 1;
+}
+.text{
+     position: absolute;
+    top: 280px;
+    left: 15px;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    font-size: 28px;
+    width: 340px;
+    height: 50px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color:rgba(128, 0, 128, 0.591);
+   border-style: none;
+   border-radius: 10px;
+}
+.btn:hover{
+   border: 1px solid black;
+   cursor: pointer;
+}
+#icon{
+    position: absolute;
+     top: 210px;
+     left: 170px;
+}
+select{
+    cursor: pointer;
+    text-align: right;
+    text-align-last: right;
+   
+    
+}
+
+option{
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    
+}
+
